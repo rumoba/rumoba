@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     text-align: center;
+    position: relative;
 }
 
 h1 {
@@ -25,6 +26,47 @@ h2 {
 }
 .botao {
   display: inline-block;
+  .polaroid {
+  display: inline-block;
+  background: white;
+  padding: 14px 14px 50px 14px;
+  border-radius: 4px;
+  box-shadow: 0 8px 20px rgba(122,90,146,0.15);
+  transform: rotate(-4deg);
+  margin: 30px;
+}
+
+.polaroid img {
+  width: 240px;
+  display: block;
+}
+.fmed {
+ top: 120px;
+ left: 80px;
+
+ transform: rotate(-6deg);
+}
+
+.fderecho {
+ top: 430px;
+ left: 120px;
+
+ transform: rotate(4deg);
+}
+
+.colon {
+ top: 150px;
+ right: 80px;
+
+ transform: rotate(5deg);
+}
+
+.obelisco {
+ top: 430px;
+ right: 100px;
+
+ transform: rotate(-4deg);
+}
   padding: 12px 20px;
   margin: 10px;
   background-color: #9A7AB5;
@@ -45,7 +87,20 @@ h2 {
 <p>Te contamos como fazer documentos, como são as universidades, como é a vida em Buenos Aires e muito mais!</p>
 
 <h2>Entre em contato</h2>
+<div class="polaroid">
+  <img src="fmed.jpg">
+</div>
 
+<div class="polaroid">
+  <img src="fderecho.jpg">
+</div>
+<div class="polaroid">
+  <img src="colon.jpg">
+</div>
+
+<div class="polaroid">
+  <img src="obelisco.jpg">
+</div>
 <a href="https://wa.me/message/KZSUNONGZVWBP1"
    target="_blank"
    class="botao">
