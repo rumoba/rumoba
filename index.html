@@ -71,31 +71,30 @@ h2 {
   border-radius: 8px;
   font-weight: bold;
 }
-    .legenda-med {
-  position: absolute;
-  top: 390px;
-  left: 120px;
-  color: #7A5A92;
-  font-size: 24px;
-  font-family: Georgia, serif;
+    .faixa{
+  margin-top: 80px;
+  background: rgba(255,255,255,0.45);
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid rgba(122,90,146,0.1);
 }
 
-.legenda-dir {
-  position: absolute;
-  top: 700px;
-  left: 150px;
-  color: #7A5A92;
-  font-size: 24px;
-  font-family: Georgia, serif;
+.item{
+  width: 250px;
+  color: #6F627A;
+  text-align: center;
 }
 
-.legenda-ba {
-  position: absolute;
-  top: 700px;
-  right: 120px;
-  color: #7A5A92;
-  font-size: 24px;
-  font-family: Georgia, serif;
+.item .icone{
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.item p{
+  font-size: 18px;
+  margin: 0;
 }
 </style>
 <meta charset="UTF-8">
@@ -121,11 +120,7 @@ h2 {
 <div class="polaroid obelisco">
   <img src="obelisco.jpg">
 </div>
-    <div class="legenda-med">✨ Medicina</div>
 
-<div class="legenda-dir">🎓 Derecho</div>
-
-<div class="legenda-ba">💜 Buenos Aires</div>
 <a href="https://wa.me/message/KZSUNONGZVWBP1"
    target="_blank"
    class="botao">
@@ -137,6 +132,21 @@ h2 {
    class="botao">
 📷 Instagram
 </a>
+<div class="faixa">
+  <div class="item">
+    ⭐
+    <p>Dicas práticas sobre documentos e burocracias</p>
+  </div>
+
+  <div class="item">
+    🎓
+    <p>Informações sobre universidades argentinas</p>
+  </div>
+
+  <div class="item">
+    💜
+    <p>Vivência real de estudantes em Buenos Aires</p>
+  </div>
 
 </body>
 </html>
