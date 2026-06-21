@@ -34,8 +34,11 @@ border-radius: 4px;
 box-shadow: 0 8px 20px rgba(122,90,146,0.15);
 }
 .polaroid img {
-  width: 240px;
+  width: 100%;
+  max-width: 240px;
+  height: auto;
   display: block;
+  object-fit: contain;
 }
 
 .botao {
@@ -59,19 +62,37 @@ box-shadow: 0 8px 20px rgba(122,90,146,0.15);
   font-size: 40px;
   margin-bottom: 10px;
 }
-
 .item p{
   font-size: 18px;
   margin: 0;
+
+  font-family: Georgia, serif;
+  font-weight: normal;
+  color: #7A5A92;
 }
 .faixa{
   margin-top: 250px;
-  background: rgba(255,255,255,0.45);
-  padding: 30px;
+
+  background:
+  repeating-linear-gradient(
+    to bottom,
+    #fffdfb 0px,
+    #fffdfb 34px,
+    rgba(180,180,220,0.25) 35px
+  );
+
+  padding: 40px;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
-  border-top: 2px solid rgba(122,90,146,0.1);
+
+  border-radius: 10px;
+
+  box-shadow:
+    0 8px 20px rgba(122,90,146,0.08);
+
+  border-left: 6px solid rgba(210,120,150,0.25);
 }
      .galeria{
   display: flex;
@@ -106,7 +127,6 @@ img[alt="Logo"]{
 
 <p>Te contamos como fazer documentos, como são as universidades, como é a vida em Buenos Aires e muito mais!</p>
 
-<h2>Entre em contato</h2>
 <div class="galeria">
 
 <div class="polaroid">
@@ -124,7 +144,7 @@ img[alt="Logo"]{
 <div class="polaroid">
 <img src="obelisco.jpg">
 </div>
-
+<h2>Entre em contato</h2>
 </div>
 <a href="https://wa.me/message/KZSUNONGZVWBP1"
    target="_blank"
