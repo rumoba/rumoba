@@ -24,49 +24,45 @@ h2 {
   margin-top: 50px;
   margin-bottom: 20px;
 }
-.botao {
-  display: inline-block;
-  .polaroid {
-  display: inline-block;
+.polaroid {
+  position: absolute;
   background: white;
   padding: 14px 14px 50px 14px;
   border-radius: 4px;
   box-shadow: 0 8px 20px rgba(122,90,146,0.15);
-  transform: rotate(-4deg);
-  margin: 30px;
 }
 
 .polaroid img {
   width: 240px;
   display: block;
 }
-.fmed {
- top: 120px;
- left: 80px;
 
- transform: rotate(-6deg);
+.fmed {
+  top: 120px;
+  left: 80px;
+  transform: rotate(-6deg);
 }
 
 .fderecho {
- top: 430px;
- left: 120px;
-
- transform: rotate(4deg);
+  top: 430px;
+  left: 120px;
+  transform: rotate(4deg);
 }
 
 .colon {
- top: 150px;
- right: 80px;
-
- transform: rotate(5deg);
+  top: 150px;
+  right: 80px;
+  transform: rotate(5deg);
 }
 
 .obelisco {
- top: 430px;
- right: 100px;
-
- transform: rotate(-4deg);
+  top: 430px;
+  right: 100px;
+  transform: rotate(-4deg);
 }
+
+.botao {
+  display: inline-block;
   padding: 12px 20px;
   margin: 10px;
   background-color: #9A7AB5;
@@ -87,18 +83,16 @@ h2 {
 <p>Te contamos como fazer documentos, como são as universidades, como é a vida em Buenos Aires e muito mais!</p>
 
 <h2>Entre em contato</h2>
-<div class="polaroid">
+<div class="polaroid fmed">
   <img src="fmed.jpg">
 </div>
-
-<div class="polaroid">
-  <img src="fderecho.jpg">
+<div class="polaroid fderecho">
+<img src="fderecho.jpg">
 </div>
-<div class="polaroid">
+<div class="polaroid colon">
   <img src="colon.jpg">
 </div>
-
-<div class="polaroid">
+<div class="polaroid obelisco">
   <img src="obelisco.jpg">
 </div>
 <a href="https://wa.me/message/KZSUNONGZVWBP1"
